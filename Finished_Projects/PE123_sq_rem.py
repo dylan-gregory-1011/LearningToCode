@@ -16,7 +16,7 @@ __maintainer__ = "Dylan Smith"
 __email__ = "-"
 __status__ = "Development"
 
-prime_file_input = 'C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\primes.csv'
+prime_file_input = '\\PATH\\TO\\FILE\\\\primes.csv'
 
 def int_wrapper(reader):
     for v in reader:
