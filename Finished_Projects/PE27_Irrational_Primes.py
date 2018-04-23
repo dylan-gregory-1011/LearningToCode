@@ -8,7 +8,7 @@ def quad_primes(n, a, b):
     return n*n + n*a + b
 
 primes  =[]
-with open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\primes.csv') as prime_list:
+with open('\\PATH\\TO\\FILE\\primes.csv') as prime_list:
       reader = csv.reader(prime_list)
       reader = int_wrapper(reader)
       for row in reader:
