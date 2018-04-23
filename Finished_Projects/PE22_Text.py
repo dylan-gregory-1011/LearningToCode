@@ -1,6 +1,6 @@
 names = []
 alpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I','J','K','L','M','N', 'O', 'P','Q','R','S','T','U','V','W', 'X', 'Y', 'Z']
-with open('C:\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\names.txt') as names_file:
+with open('\\PATH\\TO\\FILE\\names.txt') as names_file:
     for line in names_file:
         name = line.replace("\"", "").split(',')
         for single in name:
