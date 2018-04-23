@@ -32,7 +32,7 @@ __maintainer__ = "Dylan Smith"
 __email__ = "-"
 __status__ = "Development"
 
-prime_file_path = 'C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\primes.csv'
+prime_file_path = '\\PATH\\TO\\FILE\\primes.csv'
 
 #used to get a list of primes as integers
 def int_wrapper(reader):
