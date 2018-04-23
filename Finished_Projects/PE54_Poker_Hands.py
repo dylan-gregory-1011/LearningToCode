@@ -86,7 +86,7 @@ def get_best_cards(hand):
 def main():
     #import the text file and seperate the hands.  Be sure to get rid of the spaces as well as the new line delimiters
     all_hands = []
-    with open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\p054_poker.txt' , 'r') as p54:
+    with open('\\PATH\\TO\\FILE\\p054_poker.txt' , 'r') as p54:
         for line in p54:
             all_hands.append(line.replace(" ","").replace("\n",""))
     #set the win count at 0 and increment over all the hands.
