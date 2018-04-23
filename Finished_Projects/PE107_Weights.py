@@ -23,7 +23,7 @@ __maintainer__ = "Dylan Smith"
 __email__ = "-"
 __status__ = "Development"
 
-path_for_file_used = 'C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\Finished_Project_txts\\p107_network.txt'
+path_for_file_used = '\\PATH\\TO\\FILE\\p107_network.txt'
 
 def calculateTotalMatrixWeight(matrix):
     #calculate the total sum of the entire network.  Since each value occurs twice, divide this value by two
