@@ -28,7 +28,7 @@ def decryptMsg(cipher, key) :
 
 def main() :
     delta = time.time()
-    f = open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\p059_cipher.txt', 'r')
+    f = open('\\PATH\\TO\\FILE\\p059_cipher.txt', 'r')
     cipher = f.read().split(',')
     cipher[-1] = cipher[-1][:-1]
     cipher = list(map(int, cipher))
