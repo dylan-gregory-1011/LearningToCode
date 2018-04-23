@@ -49,13 +49,13 @@ def main():
 
     cipher_stg = []
     #download the file and replace each quotation mark with a blank space
-    with open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\p059_cipher.txt' , 'r') as p57:
+    with open('\\PATH\\TO\\FILE\\p059_cipher.txt' , 'r') as p57:
         for line in p57:
             cipher_stg = line.split(',')
     cipher = [int(x) for x in cipher_stg]
     words = []
     #get a list of common words.  To improve performance could also use a smaller list of more common words
-    with open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Project_Euler\\words.txt' , 'r') as words:
+    with open('\\PATH\\TO\\FILE\\words.txt' , 'r') as words:
         for line in words:
             words = line.split(',')
     #limit the list to only include words with a length greater then 5 to not allow for false positives
