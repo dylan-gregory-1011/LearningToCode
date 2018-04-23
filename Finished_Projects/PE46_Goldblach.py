@@ -26,7 +26,7 @@ def int_wrapper(reader):
         yield map(int, v)
 
 def getPrimesLessThan(maxNumber):
-    with open('C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\primes.csv') as prime_csv:
+    with open('\\PATH\\TO\\FILE\\primes.csv') as prime_csv:
         primes = [number for row in int_wrapper(csv.reader(prime_csv)) for number in row if number<maxNumber]
     return primes
 
