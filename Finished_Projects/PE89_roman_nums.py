@@ -15,7 +15,7 @@ __maintainer__ = "Dylan Smith"
 __email__ = "-"
 __status__ = "Development"
 
-file_path_for_roman_numerals = 'C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\Finished_Project_txts\\p089_roman.txt'
+file_path_for_roman_numerals = '\\PATH\\TO\\FILE\\Finished_Project_txts\\p089_roman.txt'
 
 def calculateOptimalRomanNumeralFor(number):
     #create a dictionary with the values that are associated with each. Also create an array
