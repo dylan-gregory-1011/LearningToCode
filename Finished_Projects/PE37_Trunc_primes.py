@@ -9,7 +9,7 @@ def int_wrapper(reader):
 
 primes = []
 #np.savetxt("primes.csv", primes)
-with open('C:\\Users\\dylan smith\\Documents\\Learnin\\Python\\Intermediate_Python\\primes.csv') as prime_list:
+with open('\\PATH\\TO\\FILE\\primes.csv') as prime_list:
     reader = csv.reader(prime_list)
     reader = int_wrapper(reader)
     for row in reader:
