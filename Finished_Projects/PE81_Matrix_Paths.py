@@ -16,7 +16,7 @@ __maintainer__ = "Dylan Smith"
 __email__ = "-"
 __status__ = "Development"
 
-text_file_used = 'C:\\Users\\uscdxs92\\Documents\\Python\\Project_Euler\\Finished_Project_txts\\p081_matrix.txt'
+text_file_used = '\\PATH\\TO\\FILE\\Finished_Project_txts\\p081_matrix.txt'
 #ierate through the text file and build an embedded array of the matrix.
 def buildMatrixFromFile():
     maximum_path = []
